@@ -2,4 +2,8 @@ body {
     color: cyan;
     background-color: black;
   }
+
+.intro-container, .outro-container {
+    background-color: blue;
+}
             
