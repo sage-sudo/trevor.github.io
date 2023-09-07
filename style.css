@@ -6,4 +6,16 @@ body {
 .intro-container, .outro-container {
     background-color: blue;
 }
+
+.about-me-container {
+  font-size: 20px;
+}
+
+.interest-container, .language-container, .skill-container {
+  font-size: 18px;
+}
+
+#hr {
+  border-color: blue;
+}
             
