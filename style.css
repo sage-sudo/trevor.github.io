@@ -25,6 +25,50 @@ body {
   
 }
 
+.navigation-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation-menu li {
+  margin-right: 20px;
+}
+
+.navigation-menu li a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+  transition: color 0.3s; 
+}
+
+.navigation-menu li a:hover {
+  color: green;
+}
+
+.cv-container a:hover {
+  color: blue;
+}
+
+.cv-container a::after {
+  color: aqua;
+}
+
+.links {
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.links a {
+  margin-right: 20px;
+  padding-left: 3px;
+}
+
+.links a svg:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+
 #hr {
   border-color: blue;
 }
